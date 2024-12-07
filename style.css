@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(203, 203, 203);
+}
+
+.parent{
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(238, 238, 104);
+    padding: 30px 20px;
+}
+
+.container p, h3{
+    margin: 0;
+}
+.container{
+    margin: 0 auto;
+    width: 50%;
+    background-color:white;
+    padding: 20px 40px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.container p{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.btn button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px;
+    background-color: rgb(238, 238, 104);
+}
+
+.btn button:active{
+    background-color: white;
+}
+
+
